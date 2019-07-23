@@ -14,8 +14,9 @@ class BaseDataLoader(DataLoader):
 
         self.batch_idx = 0
         self.n_samples = len(dataset)
+        stratify = dataset.stratify
 
-        self.sampler, self.valid_sampler = self._split_sampler(self.validation_split, **kwargs)
+        self.sampler, self.valid_sampler = self._split_sampler(self.validation_split, stratify, **kwargs)
 
         self.init_kwargs = {
             'dataset': dataset,

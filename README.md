@@ -46,9 +46,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## TODOs
-
-- [ ] Extract sampling methods in a separate file
 - [ ] Implement common feature transformation for molecular graph
+- [ ] Multi-GPU support
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
