@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `samplers`: various data sampling methods for pytorch data loader
 - `transform`: data transformation method for molecular graph
 - `trainer`: providing constraints, initializers, regularizers ......
+- `test.py`: auto-read the best model's track file
 
 ## [0.0.1] - 2019-07-23
 ### Added

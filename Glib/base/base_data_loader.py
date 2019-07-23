@@ -50,7 +50,6 @@ class BaseDataLoader(DataLoader):
             
             print('using stratified sampling method')
             _train_idx, _valid_idx = train_test_split(idx_full, test_size=len_valid, stratify=stratify)
-            print(_valid_idx)
 
         train_idx = [int(x) for x in _train_idx]
         valid_idx = [int(x) for x in _valid_idx]
