@@ -13,6 +13,7 @@ setup(
     author_email = 'hongbinrenscu@outlook.com',
     packages = find_packages(),
     platforms = 'any',
+    py_modules= ['Glib.parse_config']
     # install_requires = [
     #     'torch-geometric',
     # ],
